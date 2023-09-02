@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* Banner Section */
+.banner {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(./images/banner/banner3.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: right;
+    width: 600px;
+    margin-left: 50%;
+    padding: 200px 50px 10px;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    width: 500px;
+    margin-left: 55%;
+    padding: 80px 50px;
+}
+
+.btn-banner {
+    text-decoration: none;
+    text-align: right;
+    border-radius: 5px;
+    background: #FFF;
+    color: #005FAC;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 76%;   
+}
+
+/* Failures Section */
+.failures{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.failures-text{
+    gap: 500px;
+}
+.failures-title{
+    width: 300px;
+    color: #151414;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+.failures-description{
+    width: 420px;
+    color: #444343;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.list{
+    color: #444343;
+}
+.failures-text ul li{
+    margin: 10px;
+    font-size: 20px;
+    list-style-type: disc;
+}

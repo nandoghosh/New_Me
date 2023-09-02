@@ -1,7 +1,9 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Work Sans', sans-serif;
 }
+
 /* Banner Section */
 .banner {
     min-height: 100vh;
@@ -41,11 +43,11 @@
     padding: 20px 30px;
     font-size: 20px;
     font-weight: bold;
-    margin-left: 76%;   
+    margin-left: 76%;
 }
 
 /* Failures Section */
-.failures{
+.failures {
     width: 70%;
     margin: auto;
     display: flex;
@@ -53,10 +55,12 @@
     align-items: center;
     margin-bottom: 150px;
 }
-.failures-text{
+
+.failures-text {
     gap: 500px;
 }
-.failures-title{
+
+.failures-title {
     width: 300px;
     color: #151414;
     font-size: 50px;
@@ -64,17 +68,53 @@
     margin-bottom: 30px;
 
 }
-.failures-description{
+
+.failures-description {
     width: 420px;
     color: #444343;
     font-size: 20px;
     margin-bottom: 20px;
 }
-.list{
+
+.list {
     color: #444343;
 }
-.failures-text ul li{
+
+.failures-text ul li {
     margin: 10px;
     font-size: 20px;
     list-style-type: disc;
+}
+
+/* Plans Section */
+.plans {
+    width: 70%;
+    margin: auto;
+}
+
+.plans-title {
+    color: #151414;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+.plans-option {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plans-box {
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.plans-box h2 {
+    font-size: 30px;
+    margin-top: 24px;
+}
+.plans-box p{
+    font-size: 20px;
+    margin-top: 20px;
 }

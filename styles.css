@@ -34,7 +34,7 @@
     padding: 80px 50px;
 }
 
-.btn-banner {
+.btn-contact {
     text-decoration: none;
     text-align: right;
     border-radius: 5px;
@@ -43,7 +43,7 @@
     padding: 20px 30px;
     font-size: 20px;
     font-weight: bold;
-    margin-left: 76%;
+    margin-left: 75%;
 }
 
 /* Failures Section */
@@ -102,6 +102,7 @@
 .plans-option {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 150px;
 }
 
 .plans-box {
@@ -114,7 +115,39 @@
     font-size: 30px;
     margin-top: 24px;
 }
-.plans-box p{
+
+.plans-box p {
     font-size: 20px;
     margin-top: 20px;
+}
+
+/* Positive Section */
+.positive {
+    border-radius: 8px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%), url(./images/watch.png);
+    width: 60%;
+    height: 300px;
+    margin: auto;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    margin-bottom: 150px;
+}
+
+.positive-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    width: 460px;
+    margin: 60px 0px 60px 100px;
+}
+.btn-callnaw {
+    text-decoration: none;
+    border-radius: 5px;
+    background: #FFF;
+    color: #005FAC;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 100px;
 }
